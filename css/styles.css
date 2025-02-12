@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+html{
+    background-image: url(../assets/images/FondoPagina.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logonav {
+    width:100px;
+    height: 80px;
+    float: inline-start;
+    padding:0px 5px 0px 30px;
+    
+    
+    
+}
+
+nav{
+    background-color: #00111fff;
+   
+}
+.menunav{
+    display: flex;
+    height: 80px;
+    
+}
+.menunav2{
+    list-style: none;
+    padding-top: 30px;
+    margin-left: 60px;
+    
+}
+a{
+    text-decoration:none ;
+    color:#ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cambia{
+    background-color:#ffffff;
+    color:#000000;
+
+}
+.no-cambia:hover{
+    border-bottom:1px solid #ffffff;
+
+    
+}
+/*Damos estilos al buscador*/
+#form-buscador{
+    float: right;
+    margin: 30px;
+    
+}
+#form-buscador #buscador{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#form-buscador #buscador #botonbuscador{
+    display:block;
+    margin-top:20px;
+}
+#boton{
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+/*Daremos estilo al contenido del INDEX*/
+main{
+    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px 10px;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titulodescripcion{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding:10px 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.informacion{
+    font-size: 30px;
+    margin:10px 10px;
+}
+.beneficios{
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    justify-content: center;
+}
+.compramos{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px #00111fff;
+    color: rgb(243, 100, 100);
+    letter-spacing: 3px;
+    
+
+}
+.parrafocompramos{
+    font-size: 30px;
+    font-weight: bold;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    
+}
+.ventajas{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.listaventajas1{
+    padding: 30px;
+    
+}
+.listaventajas1:hover{
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #ccc;
+    
+}
+.listaventajas2{
+    padding: 30px;
+    
+}
+.listaventajas2:hover{
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #ccc;
+    
+}
+.listaventajas3{
+    padding: 30px;
+    
+}
+.listaventajas3:hover{
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #ccc;
+    
+}
+.listaventajas4{
+    padding: 30px;
+    justify-content: center;
+    
+}
+.listaventajas4:hover{
+    border: 1px solid #ccc;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #ccc;
+    
+}
+.listaventajas5{
+    padding: 30px;
+    
+}
+.listaventajas5:hover{
+    border: 1px solid #ccc;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #ccc;
+    
+}
+.listaventajas6{
+    padding: 30px;
+    
+}
+.listaventajas6:hover{
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #ccc;
+    
+}
+.caja1{
+    font-size: 25px;
+    margin:25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid rgb(152, 172, 184);
+    
+}
+.caja1:hover{
+    background-color: rgb(152, 172, 184);
+    color:#ffffff;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*Estilo para las ofertas*/
+
+.ofertasespeciales{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-shadow: 0px 3px 3px  #ffffff;
+}
+.textooferta{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px  #e6dfdf00;
+    margin: 20px;
+}
+.ofertas{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    justify-content: center;
+    font-size: 20px;
+}
+.oferta{
+    border:1px solid rgb(152, 172, 184);
+    background-color: #ffffff;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.tabla1{
+    border-collapse:separate;
+    margin:30px auto 50px auto
+    
+   
+}
+.tabla2{
+    border-collapse: collapse;
+    
+   
+}
+tr{
+    background-color: #788b96ff;
+}
+td{
+    
+    font-weight: bold;
+}
+.img1{
+    width: 300px;
+    height: 200px
+}
+.img2{
+    width: 350px;
+    height: 200px;
+}
+
+
+/*Estilos para los logos de las redes sociales*/
+footer{
+
+   background-color: #788b96ff;
+   padding: 5px;
+   position: relative;
+   bottom: 0;
+   
+}
+
+.redessociales{
+    margin-left:50px;
+    
+    
+}
+.redsocial{
+    width: 50px;
+    height: auto;
+    float: left;
+    padding:10px 30px 0px 30px;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.creditos{
+    padding: 20px;
+    color:#ffffff;
+    font-weight: bold;
+}
+/*En esta parte damos estilos a la pagina de productos*/
+
+
+.vehiculo{
+    width: 200px;
+    height: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap:100px;
+    margin: 50px 50px 50px 50px;
+    
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    background-color: #525659ff;
+    height: 150px;
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    padding: 3px;
+    
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    
+}
+.datos{
+    color: #ffffff;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: justify;
+    
+}
+
+.informacion{
+    font-size: 30px;
+}
+
+/*En esta parte daremos estilo al la pagina CONTACTO*/
+.contacta{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    font-size:50px;
+}
+
+.form{
+    text-align: justify;
+    margin-top:90px;
+    margin-bottom: 90px;
+    margin-left:25px;
+}
+.form-contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    flex:1;
+    font-family: Arial, sans-serif;
+}
+
+.form-contacto label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-contacto button {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-contacto button:hover {
+    background-color: #45a049;
+}
+.form-ubicacion-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+  
+  
+}
+iframe{
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+}
+.ubicacion{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+
