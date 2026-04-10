@@ -3,11 +3,27 @@
     margin: 0;
     border:0;
 }
+
+/* html solo define la altura base */
 html{
+    height: 100%;
+}
+
+/* body se convierte en un contenedor flexible vertical */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Fondo SIEMPRE visible, aunque haya scroll */
     background-image: url(../assets/images/FondoPagina.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 }
+
+
 
 /* ===========================
    NAVBAR (PC)
@@ -70,11 +86,13 @@ a{
 }
 
 /*Daremos estilo al contenido del INDEX*/
-main{
+main {
+    flex: 1; /* SE ESTIRA Y EMPUJA EL FOOTER ABAJO */
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
+
+
+
 h1{
     text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -248,19 +266,22 @@ td{
 footer{
    background-color: #788b96ff;
    padding: 5px;
-   position: relative;
-   bottom: 0;
+   
+  
 }
 .redessociales{
+    
     margin-left:50px;
 }
 .redsocial{
+   
     width: 50px;
     height: auto;
     float: left;
     padding:10px 30px 0px 30px;
 }
 .flex{
+    
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -444,59 +465,59 @@ iframe{
 
     /* Ocultar buscador en móvil */
     #form-buscador{
-        display:none !important;
+        display:none;
     }
 
     /* Mostrar hamburguesa en móvil */
     .hamburguesa{
-        display:block !important;
+        display:block;
     }
 
     /* NAV en columna en móvil */
     nav{
-        height:auto !important;
-        display:block !important;
+        height:auto;
+        display:block;
         padding-bottom:10px;
         position:relative;
     }
 
     /* Logo centrado en móvil */
     #logonav{
-        float:none !important;
-        display:block !important;
-        margin:10px auto !important;
+        float:none;
+        display:block;
+        margin:10px auto;
     }
 
     /* Menú oculto por defecto en móvil */
     .menunav{
-        display:none !important;
-        flex-direction:column !important;
-        align-items:center !important;
-        width:100% !important;
+        display:none;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
         background-color:#00111fff;
         padding:10px 0;
         gap:10px;
-        height:auto !important;
+        height:auto;
     }
 
     /* Menú visible cuando tiene .activo (JS) */
     .menunav.activo{
-        display:flex !important;
+        display:flex;
     }
 
     .menunav2{
-        margin-left:0 !important;
-        padding-top:10px !important;
+        margin-left:0;
+        padding-top:10px;
     }
 
     /* Textos más contenidos en móvil */
     .titulodescripcion,
     .informacion,
     .parrafocompramos{
-        width:90% !important;
-        margin:auto !important;
-        font-size:22px !important;
-        text-align:center !important;
+        width:90%;
+        margin:auto;
+        font-size:22px;
+        text-align:center;
     }
 
     /* Grids a una columna en móvil */
@@ -504,72 +525,72 @@ iframe{
     .ventajas,
     .ofertas,
     .grid{
-        grid-template-columns:1fr !important;
+        grid-template-columns:1fr;
     }
 
     /* Tarjetas de productos en columna en móvil */
     .contenido{
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        width: 90% !important;
-        margin: 0 auto !important;
-        height: auto !important;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
     }
 
     /* Imagen de vehículo centrada y ajustada en móvil */
     .contenido img,
     .vehiculo{
-        width: 100% !important;
-        max-width: 350px !important;
-        height: auto !important;
-        margin-bottom: 10px !important;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-bottom: 10px;
     }
 
     /* Texto de descripción centrado en móvil */
     .descripcion{
-        text-align: center !important;
-        width: 100% !important;
-        padding: 10px !important;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
     }
 
     /* Imágenes generales responsivas en móvil */
     img,
     .img1,
     .img2{
-        max-width:100% !important;
-        height:auto !important;
+        max-width:100%;
+        height:auto;
     }
 
     /* Contacto – form + mapa en columna en móvil */
     .form-ubicacion-container{
-        flex-direction:column !important;
-        align-items:center !important;
-        gap:20px !important;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
     }
 
     /* Mapa más pequeño en móvil */
     iframe{
-        width: 90% !important;
-        max-width: 350px !important;
-        height: 180px !important;
-        margin: 0 auto !important;
-        display: block !important;
+        width: 90%;
+        max-width: 350px;
+        height: 180px;
+        margin: 0 auto;
+        display: block;
     }
 
     /* Footer en columna en móvil */
     .redessociales{
-        margin-left:0 !important;
-        text-align:center !important;
+        margin-left:0;
+        text-align:center;
     }
 
     .redsocial{
-        float:none !important;
-        padding:10px !important;
+        float:none;
+        padding:10px;
     }
 
     .flex{
-        flex-direction:column !important;
-        text-align:center !important;
+        flex-direction:column;
+        text-align:center;
     }
 }
