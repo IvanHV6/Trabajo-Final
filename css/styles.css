@@ -266,22 +266,17 @@ td{
 footer{
    background-color: #788b96ff;
    padding: 5px;
-   
-  
 }
 .redessociales{
-    
     margin-left:50px;
 }
 .redsocial{
-   
     width: 50px;
     height: auto;
     float: left;
     padding:10px 30px 0px 30px;
 }
 .flex{
-    
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -384,8 +379,8 @@ footer{
 /* CONTACTO – CONTENEDOR FORM + MAPA EN PC */
 .form-ubicacion-container{
   display: flex;
-  justify-content: center;   /* centramos formulario + mapa */
-  align-items: center;       /* alineación vertical */
+  justify-content: center;
+  align-items: center;
   gap: 40px;
   margin-top: 40px;
 }
@@ -444,11 +439,9 @@ iframe{
     font-size: 18px;
     font-weight: bold;
 }
-
 /* ===========================
-   RESPONSIVE 
+   RESPONSIVE MÓVIL (ORIGINAL)
    =========================== */
-
 
 @media (max-width: 768px){
    
@@ -460,8 +453,6 @@ iframe{
         max-width: 350px;
         height: auto;
     }
-
-
 
     /* Ocultar buscador en móvil */
     #form-buscador{
@@ -592,5 +583,108 @@ iframe{
     .flex{
         flex-direction:column;
         text-align:center;
+    }
+}
+
+
+
+/* ===========================
+   RESPONSIVE TABLET / IPAD
+   =========================== */
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    /* NAV */
+    #logonav{
+        width: 90px;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .menunav{
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .menunav2{
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    /* INICIO – BENEFICIOS */
+    .beneficios{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .titulodescripcion,
+    .informacion,
+    .parrafocompramos{
+        width: 90%;
+        font-size: 26px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* PRODUCTOS */
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        margin: 40px;
+    }
+
+    .contenido{
+        width: 90%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .contenido img{
+        width: 45%;
+        height: auto;
+    }
+
+    .descripcion{
+        width: 55%;
+        padding: 10px;
+    }
+
+    /* OFERTAS (texto) */
+    .ofertas{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .oferta{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* OFERTAS (coches) */
+    .ofertas-coches{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .coche img{
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /* CONTACTO */
+    .form-ubicacion-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    iframe{
+        width: 90%;
+        height: 260px;
     }
 }
