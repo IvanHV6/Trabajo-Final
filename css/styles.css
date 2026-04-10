@@ -9,30 +9,28 @@ html{
     background-size: cover;
 }
 
+/* ===========================
+   NAVBAR (PC)
+   =========================== */
+
 #logonav {
     width:100px;
     height: 80px;
     float: inline-start;
     padding:0px 5px 0px 30px;
-    
-    
-    
 }
 
 nav{
     background-color: #00111fff;
-   
 }
 .menunav{
     display: flex;
     height: 80px;
-    
 }
 .menunav2{
     list-style: none;
     padding-top: 30px;
     margin-left: 60px;
-    
 }
 a{
     text-decoration:none ;
@@ -43,18 +41,15 @@ a{
 .cambia{
     background-color:#ffffff;
     color:#000000;
-
 }
 .no-cambia:hover{
     border-bottom:1px solid #ffffff;
-
-    
 }
-/*Damos estilos al buscador*/
+
+/*Damos estilos al buscador (PC)*/
 #form-buscador{
     float: right;
     margin: 30px;
-    
 }
 #form-buscador #buscador{
     width: 200px;
@@ -72,11 +67,10 @@ a{
     margin-right: 10px;
     font-weight: bold;
     border-radius: 5px;
-    
 }
+
 /*Daremos estilo al contenido del INDEX*/
 main{
-    
     text-align: center;
     padding: 0;
     margin: 0;
@@ -113,8 +107,6 @@ h1{
     text-shadow: 2px 2px 2px #00111fff;
     color: rgb(243, 100, 100);
     letter-spacing: 3px;
-    
-
 }
 .parrafocompramos{
     font-size: 30px;
@@ -123,8 +115,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-
-    
 }
 .ventajas{
     list-style: none;
@@ -133,70 +123,57 @@ h1{
     padding: 30px;
     font-size: 25px;
     font-weight: bolder;
-    
 }
 .listaventajas1{
     padding: 30px;
-    
 }
 .listaventajas1:hover{
     border: 1px solid #ccc;
     padding: 30px;
     background-color: #ccc;
-    
 }
 .listaventajas2{
     padding: 30px;
-    
 }
 .listaventajas2:hover{
     border: 1px solid #ccc;
     padding: 30px;
     background-color: #ccc;
-    
 }
 .listaventajas3{
     padding: 30px;
-    
 }
 .listaventajas3:hover{
     border: 1px solid #ccc;
     padding: 30px;
     background-color: #ccc;
-    
 }
 .listaventajas4{
     padding: 30px;
     justify-content: center;
-    
 }
 .listaventajas4:hover{
     border: 1px solid #ccc;
     margin-top: auto;
     margin-bottom: auto;
     background-color: #ccc;
-    
 }
 .listaventajas5{
     padding: 30px;
-    
 }
 .listaventajas5:hover{
     border: 1px solid #ccc;
     margin-top: auto;
     margin-bottom: auto;
     background-color: #ccc;
-    
 }
 .listaventajas6{
     padding: 30px;
-    
 }
 .listaventajas6:hover{
     border: 1px solid #ccc;
     padding: 30px;
     background-color: #ccc;
-    
 }
 .caja1{
     font-size: 25px;
@@ -206,7 +183,6 @@ h1{
     padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border:2px solid rgb(152, 172, 184);
-    
 }
 .caja1:hover{
     background-color: rgb(152, 172, 184);
@@ -217,8 +193,8 @@ span{
     font-style: italic;
     text-decoration: underline;
 }
-/*Estilo para las ofertas*/
 
+/*Estilo para las ofertas*/
 .ofertasespeciales{
     margin-left:auto;
     margin-right: auto;
@@ -245,24 +221,18 @@ span{
     padding: 5px;
     border-radius: 5px;
     text-align: center;
-    
 }
 .tabla1{
     border-collapse:separate;
-    margin:30px auto 50px auto
-    
-   
+    margin:30px auto 50px auto;
 }
 .tabla2{
     border-collapse: collapse;
-    
-   
 }
 tr{
     background-color: #788b96ff;
 }
 td{
-    
     font-weight: bold;
 }
 .img1{
@@ -274,28 +244,21 @@ td{
     height: 200px;
 }
 
-
 /*Estilos para los logos de las redes sociales*/
 footer{
-
    background-color: #788b96ff;
    padding: 5px;
    position: relative;
    bottom: 0;
-   
 }
-
 .redessociales{
     margin-left:50px;
-    
-    
 }
 .redsocial{
     width: 50px;
     height: auto;
     float: left;
     padding:10px 30px 0px 30px;
-    
 }
 .flex{
     display: flex;
@@ -307,9 +270,8 @@ footer{
     color:#ffffff;
     font-weight: bold;
 }
+
 /*En esta parte damos estilos a la pagina de productos*/
-
-
 .vehiculo{
     width: 200px;
     height: auto;
@@ -320,7 +282,6 @@ footer{
     justify-items: center;
     gap:100px;
     margin: 50px 50px 50px 50px;
-    
 }
 .contenido{
     display: flex;
@@ -331,13 +292,11 @@ footer{
     border-radius: 5px;
     width: 500px;
     padding: 3px;
-    
 }
 .descripcion{
     display: flex;
     flex-direction: column;
     height: 150px;
-    
 }
 .datos{
     color: #ffffff;
@@ -345,9 +304,7 @@ footer{
     text-decoration: none;
     margin-left: 5px;
     text-align: justify;
-    
 }
-
 .informacion{
     font-size: 30px;
 }
@@ -359,7 +316,6 @@ footer{
     text-align: center;
     font-size:50px;
 }
-
 .form{
     text-align: justify;
     margin-top:90px;
@@ -375,14 +331,12 @@ footer{
     flex:1;
     font-family: Arial, sans-serif;
 }
-
 .form-contacto label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #333;
 }
-
 .form-contacto input,
 .form-contacto select,
 .form-contacto textarea {
@@ -393,9 +347,7 @@ footer{
     border-radius: 5px;
     font-size: 16px;
 }
-
 .form-contacto button {
-    
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -404,28 +356,220 @@ footer{
     cursor: pointer;
     font-size: 16px;
 }
-
 .form-contacto button:hover {
     background-color: #45a049;
 }
+
+/* CONTACTO – CONTENEDOR FORM + MAPA EN PC */
 .form-ubicacion-container{
   display: flex;
-  justify-content: space-around;
-  align-items: start;
-
-  
-  
+  justify-content: center;   /* centramos formulario + mapa */
+  align-items: center;       /* alineación vertical */
+  gap: 40px;
+  margin-top: 40px;
 }
+
+/* Mapa en PC */
 iframe{
-    width: 600px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     justify-content: center;
+    border-radius: 10px;
 }
 .ubicacion{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
+}
+
+/* ===========================
+   HAMBURGUESA BASE (PC)
+   =========================== */
+.hamburguesa{
+    display:none;
+    font-size:35px;
+    color:#ffffff;
+    cursor:pointer;
+    position:absolute;
+    right:15px;
+    top:15px;
+    z-index:9999;
 }
 
 
+/* ===========================
+   TARJETAS DE COCHES (OFERTAS)
+   =========================== */
+
+.ofertas-coches{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.coche img{
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.coche p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ===========================
+   RESPONSIVE 
+   =========================== */
+
+
+@media (max-width: 768px){
+   
+    .ofertas-coches{
+        grid-template-columns: 1fr;
+    }
+
+    .coche img{
+        max-width: 350px;
+        height: auto;
+    }
+
+
+
+    /* Ocultar buscador en móvil */
+    #form-buscador{
+        display:none !important;
+    }
+
+    /* Mostrar hamburguesa en móvil */
+    .hamburguesa{
+        display:block !important;
+    }
+
+    /* NAV en columna en móvil */
+    nav{
+        height:auto !important;
+        display:block !important;
+        padding-bottom:10px;
+        position:relative;
+    }
+
+    /* Logo centrado en móvil */
+    #logonav{
+        float:none !important;
+        display:block !important;
+        margin:10px auto !important;
+    }
+
+    /* Menú oculto por defecto en móvil */
+    .menunav{
+        display:none !important;
+        flex-direction:column !important;
+        align-items:center !important;
+        width:100% !important;
+        background-color:#00111fff;
+        padding:10px 0;
+        gap:10px;
+        height:auto !important;
+    }
+
+    /* Menú visible cuando tiene .activo (JS) */
+    .menunav.activo{
+        display:flex !important;
+    }
+
+    .menunav2{
+        margin-left:0 !important;
+        padding-top:10px !important;
+    }
+
+    /* Textos más contenidos en móvil */
+    .titulodescripcion,
+    .informacion,
+    .parrafocompramos{
+        width:90% !important;
+        margin:auto !important;
+        font-size:22px !important;
+        text-align:center !important;
+    }
+
+    /* Grids a una columna en móvil */
+    .beneficios,
+    .ventajas,
+    .ofertas,
+    .grid{
+        grid-template-columns:1fr !important;
+    }
+
+    /* Tarjetas de productos en columna en móvil */
+    .contenido{
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 90% !important;
+        margin: 0 auto !important;
+        height: auto !important;
+    }
+
+    /* Imagen de vehículo centrada y ajustada en móvil */
+    .contenido img,
+    .vehiculo{
+        width: 100% !important;
+        max-width: 350px !important;
+        height: auto !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* Texto de descripción centrado en móvil */
+    .descripcion{
+        text-align: center !important;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    /* Imágenes generales responsivas en móvil */
+    img,
+    .img1,
+    .img2{
+        max-width:100% !important;
+        height:auto !important;
+    }
+
+    /* Contacto – form + mapa en columna en móvil */
+    .form-ubicacion-container{
+        flex-direction:column !important;
+        align-items:center !important;
+        gap:20px !important;
+    }
+
+    /* Mapa más pequeño en móvil */
+    iframe{
+        width: 90% !important;
+        max-width: 350px !important;
+        height: 180px !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    /* Footer en columna en móvil */
+    .redessociales{
+        margin-left:0 !important;
+        text-align:center !important;
+    }
+
+    .redsocial{
+        float:none !important;
+        padding:10px !important;
+    }
+
+    .flex{
+        flex-direction:column !important;
+        text-align:center !important;
+    }
+}
